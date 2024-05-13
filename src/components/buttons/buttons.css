@@ -1,0 +1,72 @@
+.loader {
+  width: 227px; 
+  height: 48px; 
+  border-radius: 14px;
+  background-color: rgba(0, 0, 0, 1); 
+  position: relative;
+  font-family: "Helvetica Neue Cyr";
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  color: #fff;
+  border: none;
+  overflow: hidden;
+  transition: padding-right 0.5s;
+  cursor: pointer;
+}
+
+.loader:after {
+  content: "";
+  position: absolute;
+}
+
+.loader:after {
+  width: 12px; 
+  height: 12px; 
+  background-color: #fff; 
+  top: 50%; 
+  transform: translateY(-50%);
+  left: 14px; 
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.loader:hover:after {
+  background-color: rgba(5, 0, 249, 1); 
+  width: 227px; 
+  height: 48px; 
+  inset: 50% 0 0 0; 
+  border-radius: 14px;
+}
+
+.loader:not(:hover):after {
+  width: 12px; 
+  height: 12px; 
+  inset: -14px 110 110 -14px; 
+  border-radius: 14px;
+}
+
+.loader span {
+  position: relative;
+  z-index: 2; 
+  transition: margin-right 0.5s; 
+}
+
+.loader:hover span {
+  margin-right: 20px; 
+}
+
+.loader svg {
+  position: absolute;
+  right: 10px; 
+  top: 50%; 
+  transform: translateY(-50%);
+  fill: #fff; 
+  z-index: 3; 
+  opacity: 0; 
+  transition: opacity 0.5s;
+}
+
+.loader:hover svg {
+  opacity: 1; 
+}

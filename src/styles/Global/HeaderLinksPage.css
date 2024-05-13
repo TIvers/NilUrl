@@ -1,0 +1,67 @@
+.HeaderLinksPageC{
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 64px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.CircleForLogoLP{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 9999px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.CentreHeaderLinksPageC{
+    margin-left: 70px;
+    display: inline-flex;
+    align-items: center;
+}
+.CentreHeaderLinksPageT{
+    cursor: pointer;
+    margin-right: 25px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.SVGCircleLP{
+    width: 32px;
+    height: 32px;
+}
+.leftUserLogo{
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.rightUserLogo{
+    display: flex;
+    height: 100%;
+    float: right;
+    align-items: center;
+}
+.UserLogoWord{
+    position: relative;
+    display: inline-flex;
+    width: 32px;
+    height: 32px;
+    background-color: #D1D5DB;
+    border-radius: 9999px;
+    justify-content: center;
+    align-items: center;
+}
+.AbsoluteDoteUserLogo{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #8787ff;
+    border-radius: 9999px;
+    right: 0px;
+    bottom: 0px;
+}
